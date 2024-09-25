@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    background-color: #809861;
+    display: flex;
+    background-image: url(../img/image\ 3.png);
+    background-repeat: no-repeat;
+    padding-bottom: 142px;
+}
+.logo{
+    display: flex;
+    padding-left: 145px;
+    padding-top: 525px;
+    font-family: "Gaegu", sans-serif;
+}
+  
+
+.text{
+    display: flex;
+    padding-top: 350px;
+    padding-left: 200px;
+}
+
+.header_litle{
+    display: flex;
+    text-decoration: none;
+    padding-top: 60px;
+    font-family: "Gaegu", sans-serif;
+    flex-wrap: wrap;
+    position: relative;
+    right: 835px;
+
+}
+
+.header__set{
+    padding-left: 800px;
+    display: flex;
+    height:24px ;
+    width:24px ;
+    cursor: pointer;
+    margin-bottom: 800px
+}
+
+.header__link {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 20px;
+    font-size: 25px;
+    font-family: "Gaegu", sans-serif;
+}
+
+
+

@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #F8E5C4;
+    height: 100vh;
+    background-image:url(../img/image.png);
+    background-repeat: no-repeat;
+   
+}
+
+.text{
+    display: flex;
+    padding-top: 43px;
+    padding-left: 640px;
+    background-size: cover;
+   
+}
+
+.inft{
+    display: flex;
+    padding-left: 394px;
+    padding-top: 30px;
+    font-size: 24px;
+    font-family: "Gaegu", sans-serif;
+    width: 962px; ;
+    height: 229px; ;
+    letter-spacing: 1px;
+}
+
+
+.text_2{
+    display: flex;
+   margin-top: 50px;
+   letter-spacing: 1px;
+   font-size: 24;
+   
+   
+}
+
+.text_3{
+    padding-top: 30px;
+    letter-spacing: 1px;
+    font-size: 24;
+  
+}
+
+.text_4{
+    display: flex;
+ 
+}
+
+.text_5{
+    padding-top: 30px;
+    letter-spacing: 1px;
+    padding-right: 200px;
+}

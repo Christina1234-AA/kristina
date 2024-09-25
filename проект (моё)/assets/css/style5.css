@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: "Gaegu", sans-serif;
+    background-color: #642A28;
+}
+
+.subscribe-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.subscribe-box {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    max-width: 400px;
+    width: 100%;
+}
+
+.subscribe-box h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.subscribe-form label {
+    display: none;
+}
+
+.subscribe-form input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.subscribe-form button {
+    padding: 10px;
+    background-color: #fff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.subscribe-form button:hover {
+    background-color: #e1e1e1;
+}
+
+footer {
+    background-color: #74352f;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.footer-content .left p, 
+.footer-content .right p {
+    margin: 3px 0;
+}
+
+.footer-content .right p {
+    font-style: italic;
+}
+
+.footer-content .right strong, 
+.footer-content .left strong {
+    font-weight: bold;
+}
+
+
+.right{
+    padding-right: 100px;
+}
+
+.footer__text{
+    padding-left: 150px;
+}

@@ -1,0 +1,61 @@
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+ 
+body { 
+    font-family: Arial, sans-serif; 
+    background-color: #809861; 
+    color: #000000; 
+} 
+ 
+header { 
+    background-color:#7C875E; 
+    color: #000000; 
+    text-align: center; 
+    padding: 20px 0; 
+} 
+ 
+header h1 { 
+    margin: 0; 
+    font-size: 40px; 
+} 
+ 
+main { 
+    max-width: 1200px; 
+    margin: 20px auto; 
+    padding: 20px; 
+} 
+ 
+.catalog { 
+    display: flex; 
+    flex-wrap: wrap; 
+    font-family: "Gaegu", sans-serif;
+    justify-content: space-around; 
+} 
+ 
+.product { 
+    background-color: #7C875E; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin: 20px; 
+    padding: 20px; 
+    width: 300px; 
+    text-align: center;
+    font-family: "Gaegu", sans-serif; 
+} 
+ 
+.product h2 { 
+    margin-bottom: 10px; 
+    font-size: 1.5em; 
+    color: #000000; 
+    font-family: "Gaegu", sans-serif;
+} 
+ 
+.product p { 
+    font-size: 1em; 
+    margin-bottom: 10px; 
+    font-family: "Gaegu", sans-serif;
+} 
